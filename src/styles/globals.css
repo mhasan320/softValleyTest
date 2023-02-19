@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header{
+    @apply flex justify-between py-1 px-4 items-center border-b border-gray-300
+}
+.leftAlign h3{
+    @apply text-2xl text-blue-600
+}
+.leftAlign p{
+    @apply text-sm
+}
+.rightAlight{
+    @apply text-right
+}
+.logout{
+    @apply cursor-pointer text-blue-500
+}
+.slidebar{
+    @apply w-[10%] h-screen border-r border-gray-300;
+}
+.slidebar h3{
+    @apply text-center py-[26px] text-lg text-blue-600 font-semibold;
+}
+.slidebar ul{
+    @apply px-2 py-2
+}
+.slidebar ul li{
+    @apply mb-2 border-b border-gray-50 pb-2 last:border-none
+}
+.slidebar ul li a{
+    @apply text-sm font-light hover:text-blue-500 transition-all duration-200
+}
+.rdt_TableHeadRow{
+    @apply text-[13px]
+}
+.rdt_TableCol_Sortable{
+    @apply gap-2 items-center
+}
+.rdt_TableCol_Sortable svg{
+    @apply w-[15px]
+}

@@ -1,0 +1,18 @@
+.login{
+    @apply flex justify-center items-center h-screen
+}
+.login form{
+    @apply border border-gray-100 py-8 px-6 rounded-md shadow-2xl w-1/4
+}
+.login form h3{
+    @apply text-2xl text-center font-semibold
+}
+.login form p{
+    @apply text-sm text-gray-400 mb-3 mt-1 font-light text-center
+}
+.login form > div{
+    @apply mb-4
+}
+.login form button{
+    @apply block m-auto mt-3
+}
